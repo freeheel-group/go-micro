@@ -1,6 +1,10 @@
+# Git itself.
+.git
+
 # Build artifacts.
 bin/
 pkg/
 
 # MaxMind data.
+data/
 *.mmdb
