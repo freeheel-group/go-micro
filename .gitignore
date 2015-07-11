@@ -1,0 +1,6 @@
+# Build artifacts.
+bin/
+pkg/
+
+# MaxMind data.
+*.mmdb

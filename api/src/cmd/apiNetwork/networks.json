@@ -1,0 +1,54 @@
+{
+    "networkName" : "TroppusWG-5G",
+    "gatewayMacs" : [ 
+        "EA-BA-0B-09-29-D4", 
+        "D2-DC-CC-51-B0-44"
+    ],
+    "associatedDeviceIds" : ["012112"],
+    "devices" : [ 
+        {
+            "deviceKey" : "B3-00-84-D0-8D-72",
+            "displayName" : "Device 1",
+            "deviceType" : 0,
+            "macAddress" : "B3-00-84-D0-8D-72",
+            "isMonitored" : false
+        }, 
+        {
+            "deviceKey" : "A8-A2-66-D2-17-F7",
+            "displayName" : "Device 2",
+            "deviceType" : 18,
+            "macAddress" : "A8-A2-66-D2-17-F7",
+            "ipAddress" : "198.162.0.3",
+            "isSymbiEnabled" : true,
+            "isMonitored" : true
+        }
+    ]
+}
+
+
+{
+    "networkName" : "Echostar-Guest",
+    "gatewayMacs" : [ 
+        "18-EB-EE-94-AC-62", 
+        "CB-F1-40-B4-F1-B7"
+    ],
+    "associatedDeviceIds" : ["332038"],
+    "devices" : [ 
+        {
+            "deviceKey" : "B0-24-85-BA-1B-07",
+            "displayName" : "Device 3",
+            "deviceType" : 0,
+            "macAddress" : "B0-24-85-BA-1B-07",
+            "isMonitored" : false
+        }, 
+        {
+            "deviceKey" : "C2-01-19-75-34-A4",
+            "displayName" : "Device 4",
+            "deviceType" : 18,
+            "macAddress" : "C2-01-19-75-34-A4",
+            "ipAddress" : "198.162.0.3",
+            "isSymbiEnabled" : true,
+            "isMonitored" : true
+        }
+    ]
+}
