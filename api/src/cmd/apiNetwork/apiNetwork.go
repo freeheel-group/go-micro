@@ -22,9 +22,9 @@ var (
 
 func main() {
     // Set up persistence. TODO: Move to a repository implementation.
-    dbUrl = getEnv("MGO_CONN", "mongodb://symbiServices:Tr0ppus!@ds036638.mongolab.com:36638/MongoLab-b")   // "mongoDev.peak8ddc.local"
+    dbUrl = getEnv("MGO_CONN", "mongodb://"mongoDev.local"")
     fmt.Println(dbUrl)
-    dbName = getEnv("MGO_DB", "MongoLab-b")     // "Raptor"
+    dbName = getEnv("MGO_DB", "Networks")
     fmt.Println(dbName)
 
     // Set routes.
